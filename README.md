@@ -21,63 +21,37 @@ Plan de trabajo:
 
 
 
-THE ROULETE - Version portable para Windows
+THE ROULETE
 
-============================================
-
-
+===========
 
 COMO JUGAR
 
-1\. Descomprime el .zip en cualquier carpeta (por ejemplo, el Escritorio).
+1. Instala Python 3 desde https://www.python.org/downloads/ (si no lo tienes).
+2. Haz doble clic en "The_Roulete.exe" (o en "Jugar_The_Roulete.pyw", hace lo mismo).
 
-&#x20;  IMPORTANTE: no lo abras desde dentro del .zip, primero "Extraer todo".
+El .exe es solo un acceso directo: debe quedar dentro de la carpeta del juego.
+Si no esta, se crea de nuevo con: py crear_exe.py
 
-2\. Entra a la carpeta "The\_Roulete" y haz doble clic en "The\_Roulete.exe".
-
-
-
-No necesitas instalar Python ni nada mas: todo viene incluido.
-
-Funciona en Windows 10 y 11 (64 bits).
-
-
-
-SI WINDOWS MUESTRA UN AVISO AZUL ("Windows protegio su PC")
-
-Es normal en juegos que no estan firmados digitalmente.
-
-Haz clic en "Mas informacion" y luego en "Ejecutar de todas formas".
-
-
+La primera vez el juego instala solo customtkinter (necesita internet) y genera su musica.
+El juego esta escrito solo en Python: no trae archivos .dll ni .pyd.
+Funciona en Windows 10 y 11.
 
 PARTIDAS GUARDADAS
 
-El juego guarda solo tu partida y tus ajustes en la carpeta "save",
-
-al lado del .exe. Para llevar tu partida a otra computadora, copia esa carpeta.
-
+El juego guarda solo tu partida y tus ajustes en la carpeta "save".
+La musica generada tambien se guarda ahi.
+Para llevar tu partida a otra computadora, copia esa carpeta.
 Para empezar totalmente de cero, borra la carpeta "save".
-
-
 
 PERSONALIZAR A RULETIN
 
-Pon una imagen llamada "ruletin.png" dentro de la carpeta "assets"
-
-y el juego la usara como la mascota.
-
-
+Pon una imagen PNG con fondo transparente llamada "ruletin.png"
+dentro de la carpeta "assets" y el juego la usara como la mascota.
 
 CONTROLES
 
-\- Clic: apostar, usar cartas y botones
-
-\- F11: pantalla completa
-
-\- Enter / Espacio: avanzar dialogos
-
-\- Esc: cerrar ventanas, saltar tutorial o salir de pantalla completa
-
-
-
+- Clic: apostar, usar cartas y botones
+- F11: pantalla completa
+- Enter / Espacio: avanzar dialogos
+- Esc: cerrar ventanas, saltar tutorial o salir de pantalla completa
