@@ -123,7 +123,7 @@ class RoguelikeRouletteApp:
             None,
         )
         self.audio = SoundManager(
-            audio_dir=base_dir / "assets" / "audio",
+            audio_dir=base_dir / "assets",
             cache_dir=base_dir / "save" / "musica",
             enabled=True,
         )

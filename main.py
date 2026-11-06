@@ -1,6 +1,6 @@
 """
 Punto de entrada de The Roulete.
-Ejecuta `py main.py` (o haz doble clic en Jugar_The_Roulete.pyw).
+Ejecuta `py main.py` (o haz doble clic en The_Roulete.exe).
 La primera vez instala customtkinter si falta: es la única librería externa del juego.
 """
 

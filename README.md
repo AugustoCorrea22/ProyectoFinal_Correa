@@ -28,10 +28,9 @@ THE ROULETE
 COMO JUGAR
 
 1. Instala Python 3 desde https://www.python.org/downloads/ (si no lo tienes).
-2. Haz doble clic en "The_Roulete.exe" (o en "Jugar_The_Roulete.pyw", hace lo mismo).
+2. Haz doble clic en "The_Roulete.exe".
 
 El .exe es solo un acceso directo: debe quedar dentro de la carpeta del juego.
-Si no esta, se crea de nuevo con: py crear_exe.py
 
 La primera vez el juego instala solo customtkinter (necesita internet) y genera su musica.
 El juego esta escrito solo en Python: no trae archivos .dll ni .pyd.
